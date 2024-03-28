@@ -132,11 +132,11 @@ LOAD linker stubs
  .debug_line    0x00000000      0x259 startup.o
  .debug_line    0x00000259      0x1e3 main.o
 
-.debug_str      0x00000000      0x3b9
- .debug_str     0x00000000      0x2af startup.o
-                                0x2ec (size before relaxing)
- .debug_str     0x000002af      0x10a main.o
-                                0x308 (size before relaxing)
+.debug_str      0x00000000      0x38e
+ .debug_str     0x00000000      0x284 startup.o
+                                0x2c1 (size before relaxing)
+ .debug_str     0x00000284      0x10a main.o
+                                0x2dd (size before relaxing)
 
 .comment        0x00000000       0x49
  .comment       0x00000000       0x49 startup.o
